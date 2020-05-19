@@ -13,7 +13,7 @@
   $data = file_get_contents('php://input');
 
   // ここにGASのURLを入れる
-  $url = "https://script.google.com/d/1-wyZLB6UzF6xe0D0i0oCv3jObGi4fNsZIoQYPloj9EwxkBTaJSNvDObb/exec";
+  $url = "https://script.google.com/d/1-wyZLB6UzF6xe0D0i0oCv3jObGi4fNsZIoQYPloj9EwxkBTaJSNvDObb/edit?usp=drive_web&folder=0ANLFiayXgh1KUk9PVA&splash=yes/exec";
 
   // POSTで送信
   $ch = curl_init();
